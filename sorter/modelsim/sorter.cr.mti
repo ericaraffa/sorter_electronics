@@ -1,0 +1,33 @@
+{D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/tb/sorter_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/tb/sorter_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sorter_tb
+-- Compiling architecture behavioral of sorter_tb
+
+} {} {}} {D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/src/sorter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/src/sorter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sorter
+-- Compiling architecture struct of sorter
+
+} {} {}} {D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/src/sorter_wrapper.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/src/sorter_wrapper.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sorter_wrapper
+-- Compiling architecture struct of sorter_wrapper
+
+} {} {}} {D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/src/cell.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/src/cell.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cell
+-- Compiling architecture behavioral of cell
+
+} {} {}}

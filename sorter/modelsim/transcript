@@ -1,0 +1,65 @@
+# Compile of cell.vhd was successful.
+# Compile of sorter.vhd was successful.
+# Compile of sorter_tb.vhd was successful.
+# Compile of sorter_wrapper.vhd was successful.
+# Compile of sorter_wrapper_tb.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.sorter_wrapper_tb
+# vsim -gui work.sorter_wrapper_tb 
+# Start time: 22:04:33 on Feb 09,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sorter_wrapper_tb(behavioral)
+# Loading work.sorter_wrapper(struct)
+# Loading work.sorter(struct)
+# Loading work.cell(behavioral)
+add wave -position insertpoint  \
+sim:/sorter_wrapper_tb/DUT/sorter_i/clk \
+sim:/sorter_wrapper_tb/DUT/sorter_i/reset \
+sim:/sorter_wrapper_tb/DUT/sorter_i/write_enable \
+sim:/sorter_wrapper_tb/DUT/sorter_i/read_symbols \
+sim:/sorter_wrapper_tb/DUT/sorter_i/symbol_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/symbol_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/cell_data_write \
+sim:/sorter_wrapper_tb/DUT/sorter_i/cell_data_read \
+sim:/sorter_wrapper_tb/DUT/sorter_i/push_array
+add wave -position insertpoint  \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(0)/FIRST/CELL_HEAD/read_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(0)/FIRST/CELL_HEAD/read_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(0)/FIRST/CELL_HEAD/write_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(0)/FIRST/CELL_HEAD/write_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(0)/FIRST/CELL_HEAD/push_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(0)/FIRST/CELL_HEAD/push_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(0)/FIRST/CELL_HEAD/curr_data \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(0)/FIRST/CELL_HEAD/occupied
+add wave -position insertpoint  \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(1)/MIDDLE/CELL_MID/read_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(1)/MIDDLE/CELL_MID/read_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(1)/MIDDLE/CELL_MID/write_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(1)/MIDDLE/CELL_MID/write_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(1)/MIDDLE/CELL_MID/push_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(1)/MIDDLE/CELL_MID/push_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(1)/MIDDLE/CELL_MID/curr_data \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(1)/MIDDLE/CELL_MID/occupied
+add wave -position insertpoint  \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(2)/MIDDLE/CELL_MID/read_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(2)/MIDDLE/CELL_MID/read_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(2)/MIDDLE/CELL_MID/write_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(2)/MIDDLE/CELL_MID/write_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(2)/MIDDLE/CELL_MID/push_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(2)/MIDDLE/CELL_MID/push_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(2)/MIDDLE/CELL_MID/curr_data \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(2)/MIDDLE/CELL_MID/occupied
+add wave -position insertpoint  \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(3)/LAST/CELL_TAIL/read_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(3)/LAST/CELL_TAIL/read_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(3)/LAST/CELL_TAIL/write_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(3)/LAST/CELL_TAIL/write_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(3)/LAST/CELL_TAIL/push_in \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(3)/LAST/CELL_TAIL/push_out \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(3)/LAST/CELL_TAIL/curr_data \
+sim:/sorter_wrapper_tb/DUT/sorter_i/GEN(3)/LAST/CELL_TAIL/occupied
+run -all
+# End time: 22:18:26 on Feb 09,2023, Elapsed time: 0:13:53
+# Errors: 0, Warnings: 2

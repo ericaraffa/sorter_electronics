@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Feb  8 16:06:15 2023
+# Process ID: 16200
+# Current directory: D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/vivado/sorter/sorter.runs/impl_1
+# Command line: vivado.exe -log sorter_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sorter_wrapper.tcl -notrace
+# Log file: D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/vivado/sorter/sorter.runs/impl_1/sorter_wrapper.vdi
+# Journal file: D:/Rick/Computer Engineering/Eletronics and Communication Systems/sorter/vivado/sorter/sorter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sorter_wrapper.tcl -notrace
